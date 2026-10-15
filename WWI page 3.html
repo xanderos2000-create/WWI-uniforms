@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style type="text/css">
+		/* http://meyerweb.com/eric/tools/css/reset/ 
+	   v2.0 | 20110126
+	   License: none (public domain)
+	*/
+
+	html, body, div, span, applet, object, iframe,
+	h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+	a, abbr, acronym, address, big, cite, code,
+	del, dfn, em, img, ins, kbd, q, s, samp,
+	small, strike, strong, sub, sup, tt, var,
+	b, u, i, center,
+	dl, dt, dd, ol, ul, li,
+	fieldset, form, label, legend,
+	table, caption, tbody, tfoot, thead, tr, th, td,
+	article, aside, canvas, details, embed, 
+	figure, figcaption, footer, header, hgroup, 
+	menu, nav, output, ruby, section, summary,
+	time, mark, audio, video {
+		margin: 0;
+		padding: 0;
+		border: 0;
+		font-size: 100%;
+		font: inherit;
+		vertical-align: baseline;
+	}
+	/* HTML5 display-role reset for older browsers */
+	article, aside, details, figcaption, figure, 
+	footer, header, hgroup, menu, nav, section {
+		display: block;
+	}
+	
+	header{
+		background-color: #b1a7a5;
+		padding: 3%;
+	}
+	body {
+		line-height: 1;
+		background-color: #5b5553;
+		color: #59571A;
+	}
+	ol, ul {
+		list-style: none;
+	}
+	blockquote, q {
+		quotes: none;
+	}
+	blockquote:before, blockquote:after,
+	q:before, q:after {
+		content: '';
+		content: none;
+	}
+	table {
+		border-collapse: collapse;
+		border-spacing: 0;
+	}
+		
+	
+	#wrapper{
+		width: 80.56%;
+		margin: 0 auto;
+		background-color: #e5e5e5;
+	}
+	
+	nav{
+		padding: 1% 0;
+		background-color: #b1a7a5;
+		margin: 0 auto;
+	}
+	nav ul{
+	width: 85.57%;
+	margin: 0 auto;
+	}
+	nav ul li{
+		display: inline;
+		margin-right: 2%;
+	}
+	#feature{
+		width: 81.325%;
+		margin: 3% auto 4% auto;
+		background-color: #b1a7a5;
+		overflow: hidden;
+		padding: 1.5% 2.25% 3.5% 2.25%;
+	}
+	.feature-img{
+		float: left;
+		width: 40%;
+	}
+
+	
+	figure{
+		float: right;
+		width: 25%;
+		background-color: silver;
+	}
+
+	figure img{ 
+		max-width: 100%;
+	}
+	
+	img{ width: 100%;
+	}
+	p{ padding-right: 2px; 
+	padding-left: 2px; 
+	}
+	
+	
+	#main-content{
+		width: 59.39%;
+		float: left;
+		margin: 2%;
+
+	}
+	
+	#sidebar{
+		width: 32.60%;
+		float: left;
+		margin: 2%;
+
+	}
+	.side-figure{
+		width: 88.0794%;
+		margin: 0 auto;
+	}
+	.main-figure{
+		width: 32.504%;
+		margin-right: 9.56%;
+		float: right;
+		padding: bottom: 2%;
+	}
+	footer{ 
+	clear: both;
+	padding: 0.5%;
+	}
+	p{ 
+		margin: 2% 0;
+	}
+	h2, h1{ 
+	margin: 2% 0;
+	}
+	.nav-item{ 
+		display: inline-block;
+		margin-left: 2%;
+		background-color: yellow;
+	}
+	
+	li.nav-item a:link{
+		color: red;
+	}
+	
+	li.nav-item a:visited{
+		color: green;
+	}
+	
+	li.nav-item a:hover{
+		color: white;
+		background-color: skyblue;
+	}
+	
+	li.nav-item a:active{
+		color: orange;
+	}
+	
+	blockquote{
+		font-size: 1.5em;
+		font-family: serif;
+		line-height: 1.5em;
+		margin: 4% 0 4% 6%;
+		background-color: darkgrey;
+		padding: 2%;
+		border-left: 10px solid black;
+		color: #eee;
+		clear: right;
+	}
+	
+	blockquote:before{
+		vertical-align: -.35em;
+		line-height: 0;
+		font-size: 4em;
+		content: "\201C";
+	}
+	h1{
+		color: #061F00
+	}
+	h2{ 
+		color: #214B16;
+	}
+	
+/*type styles*/
+	
+	#feature h2{
+		margin-bottom: 2%;
+	}
+	p{
+		margin: 2.5% 0;
+	}
+	
+	body{
+		font-family: 'Cardo', serif;
+	}
+	
+	h1, h2, h3, h4, h5, h6{
+		font-family: 'Josefin Sans', sans-serif;
+		letter-spacing: .05em;
+	}
+	h1{ 
+		font-size: 2em;
+		font-weight: bold;
+	}
+	
+	h2{
+		font-size: 1.75em;
+		font-weight: bold;
+	}
+	
+		.feature-text{
+		float: left;
+		width: 58%;
+		margin-left:  2%;
+		font-size: 1.3333em;
+		font-weight: bold;
+		line-height: 125%;
+		letter-spacing: .05em;
+		
+	}
+	
+	article>p{
+		line-height: 120%;
+	}
+	
+	figcaption{
+		margin: 3%;
+	}
+	
+	#sidebar figcaption{
+		margin-bottom: 6%;
+	}
+	
+table, caption{ 
+	background-color: navy;
+}
+thead, tfoot{
+	background-color: silver;
+}
+tbody{
+	background-color: gray;
+}
+caption{
+color: silver;
+}
+table {
+    border: 2px solid black;
+	 border-collapse: collapse;
+}
+.main-figure2{ 
+width: 100%;
+}
+th, td {
+    border: 1px solid black;
+    padding: 6px;
+	color: black;
+}
+	</style>
+    <title>My First multi column</title>
+</head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+
+<body>
+	<div id="wrapper">
+	<header>
+		<h1>Imperial German Uniforms of the First World War</h1>
+	</header>
+	
+	<nav>
+		<ul>
+			<li class="nav-item"><a href="WWI page 1.html">Infantrie</a></li>
+			<li class="nav-item"><a href="WWI page 2.html">Jäger</a></li>
+			<li class="nav-item"><a href="WWI page 4.html">Artillerie</a></li>
+			<li class="nav-item"><a href="WWI page 5.html">Kavallerie</a></li>
+		</ul>
+	</nav>
+	
+	<div id="feature">
+		<img src="https://histclo.com/imagef/date/2015/01/766623090s.jpg" class="feature-img"/>
+	<div class="feature-text">
+		<h2> German Pioniere Troops </h2>
+		<p>These units were considered some of the most important, specialized units of the German army and were crucial in the use of new weapons and new modern infantry tactics.</p>
+		</div>
+	</div>
+	
+	<div id="main-content">
+		<article>
+			<h2>What are Pioniere troops</h2>
+			<figure class="main-figure">
+				<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWylQwyhGmxQFYwuCehHR0BZBKHZQEM9KPtFnVHh7ug9wNy6sqEL9MtSw&s=10" />
+				<figcaption>
+					<p>Pioniere propaganda poster "Pioneers step forward"</p>
+				</figcaption>
+			</figure>
+			<p>Pioniere or Pioneers originally are engineer troops that are specialized in constructing and maintaining forifications. They were responsible for building lots of the trenches and other defensive positions.</p>
+			<p>German tenches were far more advanced than their allied counterparts, using concrete and containing many bunkers. Some trenches even had phones and electricity, there were proper bedding areas even a piano in one example.</p>
+			<p>Later in the war Pioneers were turned into more of elite frontline shock troops. They used many different weapons such as flamethrowers which they specialized in.</p>
+		</article>
+		
+		<article>
+			<h2>Sturmtruppen or Strosstruppen</h2>
+			<p>later in the way specialized units called stormtroopers were created, mostly from pioneer units. They would use small unit tactics going in with small teams in the dark and would cause chaos in the enemy lines right before or during a large attack.</p>
+			<p>These special units would be able to act much more independent of high command, using small squad tactics often under command of a officer or squad leader in the moment during combat. </p>
+			<p>To be a stormtrooper you had to follow strict requirements as they were the elite and also had an extremely high casualty rate ranging from 40% to 90% killed, wounded or missing in action. Because of this the requirements were, you could not be over 25 years old, you had to be mentally and physically strong, athletic, you couldn't be married and you needed to be aggressive.  </p>
+		</article>
+
+    <h2>Weapons Used by German Shock Troops</h2>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Weapon types used by Stormtroops</th>
+                <th>Weapons</th>
+                <th>Main roles</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Close-combat weapons</td>
+                <td>Trench clubs, knives, bayonets, shovels</td>
+                <td>Fighting up close in trenches.</td>
+            </tr>
+            <tr>
+                <td>Rifles and carbines</td>
+                <td>Gewehr 98, Karabiner 98az</td>
+                <td>Standard infantry small arms.</td>
+            </tr>
+            <tr>
+                <td>Pistols</td>
+                <td>P08 Luger, C96 Mauser</td>
+                <td>Sidearms, useful for close range.</td>
+            </tr>
+            <tr>
+                <td>Machine guns</td>
+                <td>MG 08/15, captured Lewis guns</td>
+                <td>Automatic fire power for supporting assaults and suppression.</td>
+            </tr>
+            <tr>
+                <td>Submachine gun</td>
+                <td>MP 18</td>
+                <td>Close range automatic fire, introduced 1918 in small numbers.</td>
+            </tr>
+            <tr>
+                <td>Explosives</td>
+                <td>Hand grenades, bundle grenades, demolition charges</td>
+                <td>Attacking enemy positions and clearing obstacles.</td>
+            </tr>
+            <tr>
+                <td>Support weapons</td>
+                <td>Mortars, field guns, flamethrowers</td>
+                <td>Support weapons operated by crews.</td>
+            </tr>
+        </tbody>
+    </table>
+	
+				<figure class="main-figure2">
+				<img src="https://www.americanrifleman.org/media/vwdnxxfs/germans-with-lewis-and-madsen.jpg?mode=crop&width=1920&height=1028" />
+				<figcaption>
+					<p>German soldiers using Madsen light machine gun and captured Lewis light machine gun</p>
+				</figcaption>
+			</figure>
+</article>
+	</div><!--close main div-->
+	<div id="sidebar">
+		<article>
+			<h2>Uniforms and equipment of Pioniere units</h2>
+			<figure class="side-figure">
+				<img src="https://www.forgottenweapons.com/wp-content/uploads/2016/04/Kleines-Flammenwerfer.png" />
+				<figcaption>
+					<p>German Pionieres using a Flamethrower or Flamenwerfer</p>
+				</figcaption>
+			</figure>
+			<p>Pionieres would have a similar uniform to Infantrie they would have feldgrau tunics with red piping although they had black piping on their cuffs. Pioniere also had black and red shoulder boards and field caps making them stand out among usual troops.  </p>
+			<p>These shock troops primarily used the Kar 98 az, as their main rifle. They also used a wide amount of handguns like C96 mauser pistols and also P08 Lugers. Stormtroop units also made use of smaller field cannons though they were harder to move through the field. </p>
+			<p>German stormtroops also made use of many grenades often having many strapped to them, or in grenade bags under their shoulders. They also made use of a longer P08 Luger with a stock and drum magazine holding 32 rounds. This same magazine would be used later in the MP18 submachine gun this was the first issued submachine gun in warfare.</p>
+			
+								<figure class="side-figure">
+				<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkVKGM-VrTyVeOMf1FQyWi20BZxD9QXyuVYofOwKA5tA&s=10" />
+				<figcaption>
+					<p>Totenkopf (deaths head) Guard Pioniere. The skull patch is Totenkopf and white bars on cuffs meaning Guard unit.</p>
+				</figcaption>
+				<article>
+
+
+
+
+		</article>
+	</div><!--close sidebar div-->
+	<footer>
+		<p><small>Copyright Xander Oldenburg-Stifter 2026, all images, illustrations, and videos belong to their respective owners.</small></p>
+	</footer>
+	</div><!--close wrapper div-->
+</body>	
+</html>

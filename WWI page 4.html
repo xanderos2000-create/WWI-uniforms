@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style type="text/css">
+		/* http://meyerweb.com/eric/tools/css/reset/ 
+	   v2.0 | 20110126
+	   License: none (public domain)
+	*/
+
+	html, body, div, span, applet, object, iframe,
+	h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+	a, abbr, acronym, address, big, cite, code,
+	del, dfn, em, img, ins, kbd, q, s, samp,
+	small, strike, strong, sub, sup, tt, var,
+	b, u, i, center,
+	dl, dt, dd, ol, ul, li,
+	fieldset, form, label, legend,
+	table, caption, tbody, tfoot, thead, tr, th, td,
+	article, aside, canvas, details, embed, 
+	figure, figcaption, footer, header, hgroup, 
+	menu, nav, output, ruby, section, summary,
+	time, mark, audio, video {
+		margin: 0;
+		padding: 0;
+		border: 0;
+		font-size: 100%;
+		font: inherit;
+		vertical-align: baseline;
+	}
+	/* HTML5 display-role reset for older browsers */
+	article, aside, details, figcaption, figure, 
+	footer, header, hgroup, menu, nav, section {
+		display: block;
+	}
+	
+	header{
+		background-color: #b1a7a5;
+		padding: 3%;
+	}
+	body {
+		line-height: 1;
+		background-color: #5b5553;
+		color: #59571A;
+	}
+	ol, ul {
+		list-style: none;
+	}
+	blockquote, q {
+		quotes: none;
+	}
+	blockquote:before, blockquote:after,
+	q:before, q:after {
+		content: '';
+		content: none;
+	}
+	table {
+		border-collapse: collapse;
+		border-spacing: 0;
+	}
+		
+	
+	#wrapper{
+		width: 80.56%;
+		margin: 0 auto;
+		background-color: #e5e5e5;
+	}
+	
+	nav{
+		padding: 1% 0;
+		background-color: #b1a7a5;
+		margin: 0 auto;
+	}
+	nav ul{
+	width: 85.57%;
+	margin: 0 auto;
+	}
+	nav ul li{
+		display: inline;
+		margin-right: 2%;
+	}
+	#feature{
+		width: 81.325%;
+		margin: 3% auto 4% auto;
+		background-color: #b1a7a5;
+		overflow: hidden;
+		padding: 1.5% 2.25% 3.5% 2.25%;
+	}
+	.feature-img{
+		float: left;
+		width: 40%;
+	}
+
+	
+	figure{
+		float: right;
+		width: 25%;
+		background-color: silver;
+	}
+
+	figure img{ 
+		max-width: 100%;
+	}
+	
+	img{ width: 100%;
+	}
+	p{ padding-right: 2px; 
+	padding-left: 2px; 
+	}
+	
+	
+	#main-content{
+		width: 59.39%;
+		float: left;
+		margin: 2%;
+
+	}
+	
+	#sidebar{
+		width: 32.60%;
+		float: left;
+		margin: 2%;
+
+	}
+	.side-figure{
+		width: 88.0794%;
+		margin: 0 auto;
+	}
+	.main-figure{
+		width: 32.504%;
+		margin-right: 9.56%;
+		float: right;
+		padding: bottom: 2%;
+	}
+	footer{ 
+	clear: both;
+	padding: 0.5%;
+	}
+	p{ 
+		margin: 2% 0;
+	}
+	h2, h1{ 
+	margin: 2% 0;
+	}
+	.nav-item{ 
+		display: inline-block;
+		margin-left: 2%;
+		background-color: yellow;
+	}
+	
+	li.nav-item a:link{
+		color: red;
+	}
+	
+	li.nav-item a:visited{
+		color: green;
+	}
+	
+	li.nav-item a:hover{
+		color: white;
+		background-color: skyblue;
+	}
+	
+	li.nav-item a:active{
+		color: orange;
+	}
+	
+	blockquote{
+		font-size: 1.5em;
+		font-family: serif;
+		line-height: 1.5em;
+		margin: 4% 0 4% 6%;
+		background-color: darkgrey;
+		padding: 2%;
+		border-left: 10px solid black;
+		color: #eee;
+		clear: right;
+	}
+	
+	blockquote:before{
+		vertical-align: -.35em;
+		line-height: 0;
+		font-size: 4em;
+		content: "\201C";
+	}
+	h1{
+		color: #061F00
+	}
+	h2{ 
+		color: #214B16;
+	}
+	
+/*type styles*/
+	
+	#feature h2{
+		margin-bottom: 2%;
+	}
+	p{
+		margin: 2.5% 0;
+	}
+	
+	body{
+		font-family: 'Cardo', serif;
+	}
+	
+	h1, h2, h3, h4, h5, h6{
+		font-family: 'Josefin Sans', sans-serif;
+		letter-spacing: .05em;
+	}
+	h1{ 
+		font-size: 2em;
+		font-weight: bold;
+	}
+	
+	h2{
+		font-size: 1.75em;
+		font-weight: bold;
+	}
+	
+		.feature-text{
+		float: left;
+		width: 58%;
+		margin-left:  2%;
+		font-size: 1.3333em;
+		font-weight: bold;
+		line-height: 125%;
+		letter-spacing: .05em;
+		
+	}
+	
+	article>p{
+		line-height: 120%;
+	}
+	
+	figcaption{
+		margin: 3%;
+	}
+	
+	#sidebar figcaption{
+		margin-bottom: 6%;
+	}
+	</style>
+    <title>My First multi column</title>
+</head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+
+<body>
+	<div id="wrapper">
+	<header>
+		<h1>Imperial German Uniforms of the First World War</h1>
+	</header>
+	
+	<nav>
+		<ul>
+			<li class="nav-item"><a href="WWI page 1.html">Infantrie</a></li>
+			<li class="nav-item"><a href="WWI page 2.html">Jäger</a></li>
+			<li class="nav-item"><a href="WWI page 3.html">Pioniere</a></li>
+			<li class="nav-item"><a href="WWI page 5.html">Kavallerie</a></li>
+		</ul>
+	</nav>
+	
+	<div id="feature">
+		<img src="https://i.ytimg.com/vi/wmHDbauRmt0/maxresdefault.jpg" class="feature-img"/>
+	<div class="feature-text">
+		<h2>German Artillery</h2>
+		<p>Artillery was widely considered to be the biggest killer in the entire war making up around 60% for the entire war. A estimated total of 1.5 billion shells were fired through the entire war and many are still found unexploded today.</p>
+		</div>
+	</div>
+	
+	<div id="main-content">
+		<article>
+			<h2>German Artillery branches </h2>
+			<figure class="main-figure">
+				<img src="https://cdn2.picryl.com/photo/2017/03/24/german-guns-wwi-32785275954-f6949e-1024.jpg" />
+				<figcaption>
+					<p>German super heavy seige howitzers</p>
+				</figcaption>
+			</figure>
+			<p>In the First World War Germany had two main artillery groups these being field artillery or feldartillerie and foot artillery or fußartillerie. </p>
+			<p>Feldartillerie would use light field guns or infanty support guns, these smaller guns would be used at the frontline to support infanty. Some main guns used by them would have been the 7.7 cm FK 96 n.A and 7.7 cm FK 16 light field guns. Also the 10.5 cm IFH 13 and 10.5 cm IFH 16 light field howitzers.</p>
+			<p>Fußartillerie would use the larger cannons that would be in the rear lines, these would cause massive damage and were used greatly for every attack throughout the war. They used the 15cm sFH 13 heavy field howitzer, 21 cm Mörser 16 heavy seige mortar, 42 cm M-Gerät super heavy seige howitzer and also massive railway guns like the "Paris Gun".  </p>
+		</article>
+		
+		<article>
+			<h2>Artillery Uniforms</h2>
+			<p>Both branches had similar uniforms with a main difference in cuff styles. As standard men wore a feldgrau tunic with the steingrau trousers with red piping. Fußartillerie would have black piped cuffs in the normal style like infanty with a rectangle shape and three buttons these are Brandenburg style. The feldartillerie would have black piped Swedish style cuffs that are horizontal and have two buttons similar to most jägers.</p>
+			<p>Feldartillerie and fußartillerie also has seperate emblems on their shoulder boards. Fußartillerie having crossed cannon barrels in red on each shoulder while feldartillerie had a red flaming bomb symbol on each of their shoulders. Both would also have the regimental number next to the symbol of whatever regiment they were in.</p>
+			<p>Artillery units also had the exclusive use of the Kugelhelm which was a variation of the normal Pickelhaube but instead of a spike it had a ball on top. Their field cap would also have black and red piping and both the cap as well as Kugelhelm would have different emblems depending on state or kingdom.</p>
+		</article>
+
+	</div><!--close main div-->
+	<div id="sidebar">
+		<article>
+			<h2>Small arms</h2>
+			<figure class="side-figure">
+				<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvySD4C0MPasQx4LvTpNZXaNW1YrED-es8y908YuZx8LtZVXgw8Td5cSU&s=10" />
+				<figcaption>
+					<p>Paris Gun</p>
+				</figcaption>
+			</figure>
+			<p>Artillery units didn't typically engage in combat much with infantry, because of this they would usally get older equipment like gewehr 88's. Though typically they were issued with carbines such as the Kar 98az and Kar 88, they even had a exclusive gewehr 91. All a gewehr 91 was, was a Kar 88 with a small metal rod attached to the front that allowed for the stacking of rifles otherwise they are the exact same. They would also use handguns such as the P08 luger with the stock and drum magazine this is how it got the nickname the "artillery luger" as it was longer and had more attachments as mentioned, the C96 with a stock was also common.</p>
+		</article>
+	</div><!--close sidebar div-->
+	<footer>
+		<p><small>Copyright Xander Oldenburg-Stifter 2026, all images, illustrations, and videos belong to their respective owners.</small></p>
+	</footer>
+	</div><!--close wrapper div-->
+</body>	
+</html>

@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style type="text/css">
+		/* http://meyerweb.com/eric/tools/css/reset/ 
+	   v2.0 | 20110126
+	   License: none (public domain)
+	*/
+
+	html, body, div, span, applet, object, iframe,
+	h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+	a, abbr, acronym, address, big, cite, code,
+	del, dfn, em, img, ins, kbd, q, s, samp,
+	small, strike, strong, sub, sup, tt, var,
+	b, u, i, center,
+	dl, dt, dd, ol, ul, li,
+	fieldset, form, label, legend,
+	table, caption, tbody, tfoot, thead, tr, th, td,
+	article, aside, canvas, details, embed, 
+	figure, figcaption, footer, header, hgroup, 
+	menu, nav, output, ruby, section, summary,
+	time, mark, audio, video {
+		margin: 0;
+		padding: 0;
+		border: 0;
+		font-size: 100%;
+		font: inherit;
+		vertical-align: baseline;
+	}
+	/* HTML5 display-role reset for older browsers */
+	article, aside, details, figcaption, figure, 
+	footer, header, hgroup, menu, nav, section {
+		display: block;
+	}
+	
+	header{
+		background-color: #b1a7a5;
+		padding: 3%;
+	}
+	body {
+		line-height: 1;
+		background-color: #5b5553;
+		color: #59571A;
+	}
+	ol, ul {
+		list-style: none;
+	}
+	blockquote, q {
+		quotes: none;
+	}
+	blockquote:before, blockquote:after,
+	q:before, q:after {
+		content: '';
+		content: none;
+	}
+	table {
+		border-collapse: collapse;
+		border-spacing: 0;
+	}
+		
+	
+	#wrapper{
+		width: 80.56%;
+		margin: 0 auto;
+		background-color: #e5e5e5;
+	}
+	
+	nav{
+		padding: 1% 0;
+		background-color: #b1a7a5;
+		margin: 0 auto;
+	}
+	nav ul{
+	width: 85.57%;
+	margin: 0 auto;
+	}
+	nav ul li{
+		display: inline;
+		margin-right: 2%;
+	}
+	#feature{
+		width: 81.325%;
+		margin: 3% auto 4% auto;
+		background-color: #b1a7a5;
+		overflow: hidden;
+		padding: 1.5% 2.25% 3.5% 2.25%;
+	}
+	.feature-img{
+		float: left;
+		width: 40%;
+	}
+
+	
+	figure{
+		float: right;
+		width: 25%;
+		background-color: silver;
+	}
+
+	figure img{ 
+		max-width: 100%;
+	}
+	
+	img{ width: 100%;
+	}
+	p{ padding-right: 2px; 
+	padding-left: 2px; 
+	}
+	
+	
+	#main-content{
+		width: 59.39%;
+		float: left;
+		margin: 2%;
+
+	}
+#sidebar {
+    width: 32.60%;
+    float: left;
+    margin: 2%;
+}
+
+.side-figure {
+    width: 100%;
+    margin: 0 auto 10px auto;
+}
+
+.side-figure img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+	.main-figure{
+		width: 32.504%;
+		margin-right: 9.56%;
+		float: right;
+		padding: bottom: 2%;
+	}
+	footer{ 
+	clear: both;
+	padding: 0.5%;
+	}
+	p{ 
+		margin: 2% 0;
+	}
+	h2, h1{ 
+	margin: 2% 0;
+	}
+	.nav-item{ 
+		display: inline-block;
+		margin-left: 2%;
+		background-color: yellow;
+	}
+	
+	li.nav-item a:link{
+		color: red;
+	}
+	
+	li.nav-item a:visited{
+		color: green;
+	}
+	
+	li.nav-item a:hover{
+		color: white;
+		background-color: skyblue;
+	}
+	
+	li.nav-item a:active{
+		color: orange;
+	}
+	
+	blockquote{
+		font-size: 1.5em;
+		font-family: serif;
+		line-height: 1.5em;
+		margin: 4% 0 4% 6%;
+		background-color: darkgrey;
+		padding: 2%;
+		border-left: 10px solid black;
+		color: #eee;
+		clear: right;
+	}
+	
+	blockquote:before{
+		vertical-align: -.35em;
+		line-height: 0;
+		font-size: 4em;
+		content: "\201C";
+	}
+	h1{
+		color: #061F00
+	}
+	h2{ 
+		color: #214B16;
+	}
+	
+/*type styles*/
+	
+	#feature h2{
+		margin-bottom: 2%;
+	}
+	p{
+		margin: 2.5% 0;
+	}
+	
+	body{
+		font-family: 'Cardo', serif;
+	}
+	
+	h1, h2, h3, h4, h5, h6{
+		font-family: 'Josefin Sans', sans-serif;
+		letter-spacing: .05em;
+	}
+	h1{ 
+		font-size: 2em;
+		font-weight: bold;
+	}
+	
+	h2{
+		font-size: 1.75em;
+		font-weight: bold;
+	}
+	
+		.feature-text{
+		float: left;
+		width: 58%;
+		margin-left:  2%;
+		font-size: 1.3333em;
+		font-weight: bold;
+		line-height: 125%;
+		letter-spacing: .05em;
+		
+	}
+	
+	article>p{
+		line-height: 120%;
+	}
+	
+	figcaption{
+		margin: 3%;
+	}
+	
+	#sidebar figcaption{
+		margin-bottom: 6%;
+	}
+	</style>
+    <title>WWI page one</title>
+</head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+
+<body>
+	<div id="wrapper">
+	<header>
+		<h1>Imperial German Uniforms of the First World War</h1>
+	</header>
+	
+	<nav>
+		<ul>
+			<li class="nav-item"><a href="WWI page 2.html">Jäger</a></li>
+			<li class="nav-item"><a href="WWI page 3.html">Pioniere</a></li>
+			<li class="nav-item"><a href="WWI page 4.html">Artillerie</a></li>
+			<li class="nav-item"><a href="WWI page 5.html">Kavallerie</a></li>
+		</ul>
+	</nav>
+	
+	<div id="feature">
+		<img src="https://www.warhistoryonline.com/wp-content/uploads/sites/64/2015/06/2015-06-26_11-17-02.jpg" class="feature-img"/>
+	<div class="feature-text">
+		<h2>The start of the Great War</h2>
+		<p>At the start of World War One Germany had an army of about 700,000 to 800,000. A few days after the mobilization order on August 1, 1914 the army grew to around 3.8 million active men. Due to Germany's manditory conscription laws and militarism culture it had the second largest army of the entire war. Only behind the Russian Empire which had around 12 million troops Germany had mobilized a total of 11 million. </p>
+		</div>
+	</div>
+	
+	<div id="main-content">
+		<article>
+			<h2>Mobilization</h2>
+			<figure class="main-figure">
+				<img src="https://cdn.britannica.com/22/135122-050-1F5532C8/William-II.jpg" />
+				<figcaption>
+					<p>Kaiser Wilhelm II wearing Hussar uniform
+					(German Emperor)
+					</p>
+				</figcaption>
+			</figure>
+		<blockquote>
+				Your uncle would have given me a different answer. If I order it, you must make it possible.“ Kaiser Wilhelm II to Helmuth von Moltke
+		</blockquote>
+			<p>During the start of the war during August 1st 1914, Kaiser Wilhelm II had ordered Helmuth von Moltke to move the troops from the western front against France to go east and attack the Russian Empire. This was done in order to try and prevent the attack of Belgium which would lead to Britains involvement in the war. This happened days after the Kaiser was told if Belgium was left neutral Britain would remain neutral as well. Upon hearing this  Helmuth von Moltke was reported to have a nervous breakdown and unfortunately the attack on Belgium happened anyways. Helmuth von Moltke was the German Chief of staff at the time and his Uncle Helmuth von Moltke the elder was the Chief of staff of the Prussian army. </p>
+			<p>Germany's original plan known as schlieffen plan was developed in 1905 by German Field Marshal Alfred von Schlieffen to win a potential two-front war against France and Russia. In the original plan Germany was to attack through the Netherlands and Belgium. Although it was revised later on to just going through Belgium as to keep trade ports open through the Netherlands. However Germany had greatly over estimated Russia and under estimated France, with Russia not being as prepared and France showing increased resolve.</p>
+			<p>You see this was really the first modern war in history with many countries still marching in line and box formations. They had thought that wars would still be fought as like in the napoleonic wars, with cavalry and lines of men shooting back and forth at each other. But now you had machine guns, modern rifling, planes, dreadnoughts, trucks, and later on the first tanks. </p>
+		</article>
+
+		<article>
+			<h2>Early War Uniform Infantrie</h2>
+			<p>Germany's early war uniform consisted of the M1907/10 Feldrock tunic this would be in a field grey/green color also know as Feldgrau. It would have red piping on the front, the back and the cuffs. The cuff style would be different depending on the German state which is common with a lot of uniform pieces throughout this time period. Buttons would also have different emblems and colors such as silver or brass. </p>
+			<p>The trousers would be a stone grey or steingrau with red piping on the sides. The footwear would be brown leather jackboots with hobnails on the bottom this along side leather ammunition pouches mainly the M1909 pouches these would all be brown leather. They would also have a brown belt with brass or silver belt buckles depending on state or kingdom. </p>
+			<p>Each soldier would also be issued a zeltbahn or tarp for making a tent these would be a orange/brown color. Each soldier would also have a breadbag and breadbag strap for holding the belt and pouches. Hanging from the bayonet would be the bayonet knot this would depend on company or unit type for example the fourth company is white with two blue lines going across.</p>
+		</article>
+
+		<article>
+			<h2>Weapons and equipment </h2>
+			<p>The standard issue rifle of the German empire is the Mauser Gewehr 98 a five shot bolt action rifle in 8mm Mauser. The Gewehr 88 an older version was also used quite frequently with a somewhat similar style but different bolt and a barrel jacket that was prone to rust and moisture.</p>
+			<p>Some other rifles used were the Karabiner 98az which was a shorter version of the Gewehr 98 with flat sights and a curved bolt. Similarly the Karabiner 88 saw use that was short Gewehr 88 with a spoon shaped flat bolt. A large variety of hand guns were used by German troops throughout the war mainly being the P08 Luger and C96 Mauser, however soldiers would buy privately or capture handguns from all over.</p>
+			<p>German's primary machine gun during the first world war was the Maschinengewehr 08 or MG08 for short. This used a Maxim gun design as all the rest of Europe did with a cloth belt and a large water cooled jacket around the barrel for sustained fire. Other versions of this weapon saw use such as the MG08/15 which was a lighter smaller design to be more mobile, some units also used MG15 n.a which was faster firing and removed the water jacket but it was more rare. A Danish designed Madsen Light machine gun also saw use, using a top fed thirty round magazine.</p>
+		</article>
+	</div><!--close main div-->
+	<div id="sidebar">
+		<article>
+			<h2>Later War uniform</h2>
+			<figure class="side-figure">
+				<img src="https://i.pinimg.com/736x/45/23/9b/45239b4f9571623f8cedc28d7a20d99d.jpg" />
+				<figcaption>
+					<p>Early War vs Late War</p>
+				</figcaption>
+			</figure>
+			
+			<p>Early in the war Germany had used the Pickelhaube a leather spiked helmet with brass fittings, the Feldmutze field cap was also widely used throughout the entire war with different colors and cockades depending on state and unit. In 1916 due to ever increasing numbers of head injuries do to shrapnel from artillery the M16 Stalhelm or steel helmet was created. It featured a round dome shape with a back visor for neck and ear protection. It also had two horns or knobs on the sides near the forehead, these had holes for ventilation soldiers would sometime pack these with mud or paper to keep in heat during winter. The actual knobs were to mount a thick metal steel plate know as a Stirnpanzer this was mostly to protect machine gunners and snipers heads from being shot but many soldiers didn't like them. </p>
+			<p>The later uniform consisted of the M195 field blouse or Feldbluse, this was a feldgrau tunic with all the shiny buttons and red piping removed with a more simplified design. Although many early war uniforms were still widely used but buttons would be painted a dark green or brown color. The trousers remained mostly the same but the later version simply had the red piping removed. All the leather equipment would have been stained black over the brown leather dye to keep things darker and less visible.</p>
+			<p>Many things in the later periods of the war for Germany were introduced gradually over time such as the Stalhelm, because of this and also continuous lack of resources Germany had to make due with what it had. This is why you see so many soldiers using early war uniforms and equipment at the end of the war or even a mixture of early and late war equipment. Certain items would be made into Ersatz versions meaning they would be made of a cheaper lower quality material. Pickelhaube for example would be made of felt or thin tin metal rather than leather, bayonets would be a cheap sheet metal rather that the more expensive wood and metal standard. Buttons would also go from metal to wood or horn.</p>
+		
+			
+			<p>
+				For a more indepth look comparing early and late war uniforms I'd recommend this video.
+				<a href="https://www.youtube.com/watch?v=a9zCiX4omBI" target="_blank">
+				FIRST WORLD WAR German Soldier 1914 & 1918 Compared! (with subtitle)
+			</a>.
+			</p>
+			<figure class="side-figure">
+				<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxpgNpKVOFS9FiyHxfO20l0VoHbW_s1-GHgGJlgumvLesB09R8k-80igFZ&s=10" />
+				<figcaption>
+					<p>German Machine gun crew</p>
+				</figcaption>
+			</figure>
+		</article>
+	</div><!--close sidebar div-->
+	<footer>
+		<p><small>Copyright Xander Oldenburg-Stifter 2026, all images, illustrations, and videos belong to their respective owners.</small></p>
+	</footer>
+	</div><!--close wrapper div-->
+</body>	
+</html>

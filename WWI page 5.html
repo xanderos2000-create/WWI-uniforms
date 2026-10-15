@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style type="text/css">
+		/* http://meyerweb.com/eric/tools/css/reset/ 
+	   v2.0 | 20110126
+	   License: none (public domain)
+	*/
+
+	html, body, div, span, applet, object, iframe,
+	h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+	a, abbr, acronym, address, big, cite, code,
+	del, dfn, em, img, ins, kbd, q, s, samp,
+	small, strike, strong, sub, sup, tt, var,
+	b, u, i, center,
+	dl, dt, dd, ol, ul, li,
+	fieldset, form, label, legend,
+	table, caption, tbody, tfoot, thead, tr, th, td,
+	article, aside, canvas, details, embed, 
+	figure, figcaption, footer, header, hgroup, 
+	menu, nav, output, ruby, section, summary,
+	time, mark, audio, video {
+		margin: 0;
+		padding: 0;
+		border: 0;
+		font-size: 100%;
+		font: inherit;
+		vertical-align: baseline;
+	}
+	/* HTML5 display-role reset for older browsers */
+	article, aside, details, figcaption, figure, 
+	footer, header, hgroup, menu, nav, section {
+		display: block;
+	}
+	
+	header{
+		background-color: #b1a7a5;
+		padding: 3%;
+	}
+	body {
+		line-height: 1;
+		background-color: #5b5553;
+		color: #59571A;
+	}
+	ol, ul {
+		list-style: none;
+	}
+	blockquote, q {
+		quotes: none;
+	}
+	blockquote:before, blockquote:after,
+	q:before, q:after {
+		content: '';
+		content: none;
+	}
+	table {
+		border-collapse: collapse;
+		border-spacing: 0;
+	}
+		
+	
+	#wrapper{
+		width: 80.56%;
+		margin: 0 auto;
+		background-color: #e5e5e5;
+	}
+	
+	nav{
+		padding: 1% 0;
+		background-color: #b1a7a5;
+		margin: 0 auto;
+	}
+	nav ul{
+	width: 85.57%;
+	margin: 0 auto;
+	}
+	nav ul li{
+		display: inline;
+		margin-right: 2%;
+	}
+	#feature{
+		width: 81.325%;
+		margin: 3% auto 4% auto;
+		background-color: #b1a7a5;
+		overflow: hidden;
+		padding: 1.5% 2.25% 3.5% 2.25%;
+	}
+	.feature-img{
+		float: left;
+		width: 40%;
+	}
+
+	
+	figure{
+		float: right;
+		width: 25%;
+		background-color: silver;
+	}
+
+	figure img{ 
+		max-width: 100%;
+	}
+	
+	img{ width: 100%;
+	}
+	p{ padding-right: 2px; 
+	padding-left: 2px; 
+	}
+	
+	
+	#main-content{
+		width: 59.39%;
+		float: left;
+		margin: 2%;
+
+	}
+	
+	#sidebar{
+		width: 32.60%;
+		float: left;
+		margin: 2%;
+
+	}
+	.side-figure{
+		width: 88.0794%;
+		margin: 0 auto;
+	}
+	.main-figure{
+		width: 32.504%;
+		margin-right: 9.56%;
+		float: right;
+		padding: bottom: 2%;
+	}
+	footer{ 
+	clear: both;
+	padding: 0.5%;
+	}
+	p{ 
+		margin: 2% 0;
+	}
+	h2, h1{ 
+	margin: 2% 0;
+	}
+	.nav-item{ 
+		display: inline-block;
+		margin-left: 2%;
+		background-color: yellow;
+	}
+	
+	li.nav-item a:link{
+		color: red;
+	}
+	
+	li.nav-item a:visited{
+		color: green;
+	}
+	
+	li.nav-item a:hover{
+		color: white;
+		background-color: skyblue;
+	}
+	
+	li.nav-item a:active{
+		color: orange;
+	}
+	
+	blockquote{
+		font-size: 1.5em;
+		font-family: serif;
+		line-height: 1.5em;
+		margin: 4% 0 4% 6%;
+		background-color: darkgrey;
+		padding: 2%;
+		border-left: 10px solid black;
+		color: #eee;
+		clear: right;
+	}
+	
+	blockquote:before{
+		vertical-align: -.35em;
+		line-height: 0;
+		font-size: 4em;
+		content: "\201C";
+	}
+	h1{
+		color: #061F00
+	}
+	h2{ 
+		color: #214B16;
+	}
+	
+/*type styles*/
+	
+	#feature h2{
+		margin-bottom: 2%;
+	}
+	p{
+		margin: 2.5% 0;
+	}
+	
+	body{
+		font-family: 'Cardo', serif;
+	}
+	
+	h1, h2, h3, h4, h5, h6{
+		font-family: 'Josefin Sans', sans-serif;
+		letter-spacing: .05em;
+	}
+	h1{ 
+		font-size: 2em;
+		font-weight: bold;
+	}
+	
+	h2{
+		font-size: 1.75em;
+		font-weight: bold;
+	}
+	
+		.feature-text{
+		float: left;
+		width: 58%;
+		margin-left:  2%;
+		font-size: 1.3333em;
+		font-weight: bold;
+		line-height: 125%;
+		letter-spacing: .05em;
+		
+	}
+	
+	article>p{
+		line-height: 120%;
+	}
+	
+	figcaption{
+		margin: 3%;
+	}
+	
+	#sidebar figcaption{
+		margin-bottom: 6%;
+	}
+	</style>
+    <title>My First multi column</title>
+</head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+
+<body>
+	<div id="wrapper">
+	<header>
+		<h1>Imperial German Uniforms of the First World War</h1>
+	</header>
+	
+	<nav>
+		<ul>
+			<li class="nav-item"><a href="WWI page 1.html">Infantrie</a></li>
+			<li class="nav-item"><a href="WWI page 2.html">Jäger</a></li>
+			<li class="nav-item"><a href="WWI page 3.html">Pioniere</a></li>
+			<li class="nav-item"><a href="WWI page 4.html">Artillerie</a></li>
+		</ul>
+	</nav>
+	
+	<div id="feature">
+		<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxnsbev-rxULL03SXL9dAdwmEUbqLrpH-hziJyl0fqyn1PqXD9Oj2gJ72y&s=10" class="feature-img"/>
+	<div class="feature-text">
+		<h2>German Kavallerie</h2>
+		<p>Cavalry was still used quite widely in the first world war, though mostly seen as outdated by man today it still had success in certain scenarios. Cavalry was still used by all sides throughout the entire war though it was much more limited later on shrinking dramatically.</p>
+		</div>
+	</div>
+	
+	<div id="main-content">
+		<article>
+			<h2>Cavalry types and uses</h2>
+			<figure class="main-figure">
+				<img src="https://www.planetfigure.com/attachments/trooper-hugo-listz-jpg.95603/" />
+				<figcaption>
+					<p>German Uhlan</p>
+				</figcaption>
+			</figure>
+			<p>Typically german Cavalry was split into five different groups, these being Cuirassiers, Dragoons, Uhlans, Hussars, and Chevau legers. </p>
+			<p>Cuirassiers were the designated heavy cavalry for shock attacks, dragoons were medium cavalry often general purpose and would fight on foot as well as horseback. Uhlans were lancer units that were for recon and shock attacks, hussars being light cavalry were mainly used for scouting and recon. Lastly chevau legers were another light cavalry unit for scouting mainly used by the Royal Bavarian army. </p>
+		</article>
+		
+		<article>
+			<h2>Cavalry uniforms</h2>
+			<p>Cavalry in world war one usally had the most complete and fancy tradtional uniforms of any units during the entire war from all countries. They all used a variety of different tunics, colors, headgear, and trousers. Cuirassiers wore feldgrau tunics with thick lace trim on the cuffs and collar. This could come in various colors like blue, red, green, and yellow. They also would wear and distinctive metal pickelhaube with a "lobster tail" back these would sometimes have a large eagle or even lion on top instead of the spike for parades. </p>
+			<p>German dragoons had a similar uniform to most infantry though they would have different piping colors depending on unit such as yellow. Uhlans wore a unique tunic with more piping and buttons on the front, these could have either yellow, red, or white piping colors. Uhlans also would wear a Tschapka which looks like a pickelhaube with a large flat square similar to a graduation cap with an oval cockade for state.</p>
+			<p>Hussars wore a feldgrau or sometimes black attila which is their tunic this would be adorned with rope or cords across the chest, and would wear the busby a circular cap made of seal skin with fur later these would be made of felt. Chevau legers wore a similar tunic to uhlans but it was single sided piping on the right side of the chest, and would wear pickelhaube on their heads. Most cavalry would also wear leather reinforced pants or breaches and some would be baggy sticking out to each side, along with having taller leather riding boots.</p>
+		</article>
+	</div><!--close main div-->
+	<div id="sidebar">
+		<article>
+			<h2>Weapons and tactics</h2>
+			<figure class="side-figure">
+				<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUNVUH5Mshy6dMEDkXH0UqtRn4u-naGudy1_oYVmpEo2zVUZaFkeRozgAh&s" />
+				<figcaption>
+					<p>German Hussars with MG15 n.a. on foot</p>
+				</figcaption>
+			</figure>
+			<p>While cavalry was used to do charges and attacks against enemy infantry this was short lived only done in the beginning of the war on the western front. However it was still used and saw success on the eastern front with support from artillery plus machine guns. This was because the eastern front was much larger and more open without the deep muds of the western front due to cold. </p>
+			<p>Cavalry was reduced as the war went on due to ineffectiveness and loss of horses. Horses would be needed for supply and medical transport throughout the entire military. Many cavalry units would be disbanded and moved to other roles such as on foot soldiers or pilots. Though it would still be used for scouting and rare assaults. On horseback swords and short kar 98az rifles would be used so would handguns as well as lances.</p>
+		</article>
+	</div><!--close sidebar div-->
+	<footer>
+		<p><small>Copyright Xander Oldenburg-Stifter 2026, all images, illustrations, and videos belong to their respective owners.</small></p>
+	</footer>
+	</div><!--close wrapper div-->
+</body>	
+</html>

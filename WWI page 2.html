@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style type="text/css">
+		/* http://meyerweb.com/eric/tools/css/reset/ 
+	   v2.0 | 20110126
+	   License: none (public domain)
+	*/
+
+	html, body, div, span, applet, object, iframe,
+	h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+	a, abbr, acronym, address, big, cite, code,
+	del, dfn, em, img, ins, kbd, q, s, samp,
+	small, strike, strong, sub, sup, tt, var,
+	b, u, i, center,
+	dl, dt, dd, ol, ul, li,
+	fieldset, form, label, legend,
+	table, caption, tbody, tfoot, thead, tr, th, td,
+	article, aside, canvas, details, embed, 
+	figure, figcaption, footer, header, hgroup, 
+	menu, nav, output, ruby, section, summary,
+	time, mark, audio, video {
+		margin: 0;
+		padding: 0;
+		border: 0;
+		font-size: 100%;
+		font: inherit;
+		vertical-align: baseline;
+	}
+	/* HTML5 display-role reset for older browsers */
+	article, aside, details, figcaption, figure, 
+	footer, header, hgroup, menu, nav, section {
+		display: block;
+	}
+	
+	header{
+		background-color: #b1a7a5;
+		padding: 3%;
+	}
+	body {
+		line-height: 1;
+		background-color: #5b5553;
+		color: #59571A;
+	}
+	ol, ul {
+		list-style: none;
+	}
+	blockquote, q {
+		quotes: none;
+	}
+	blockquote:before, blockquote:after,
+	q:before, q:after {
+		content: '';
+		content: none;
+	}
+	table {
+		border-collapse: collapse;
+		border-spacing: 0;
+	}
+		
+	
+	#wrapper{
+		width: 80.56%;
+		margin: 0 auto;
+		background-color: #e5e5e5;
+	}
+	
+	nav{
+		padding: 1% 0;
+		background-color: #b1a7a5;
+		margin: 0 auto;
+	}
+	nav ul{
+	width: 85.57%;
+	margin: 0 auto;
+	}
+	nav ul li{
+		display: inline;
+		margin-right: 2%;
+	}
+	#feature{
+		width: 81.325%;
+		margin: 3% auto 4% auto;
+		background-color: #b1a7a5;
+		overflow: hidden;
+		padding: 1.5% 2.25% 3.5% 2.25%;
+	}
+	.feature-img{
+		float: left;
+		width: 40%;
+	}
+
+	
+	figure{
+		float: right;
+		width: 25%;
+		background-color: silver;
+	}
+
+	figure img{ 
+		max-width: 100%;
+	}
+	
+	img{ width: 100%;
+	}
+	p{ padding-right: 2px; 
+	padding-left: 2px; 
+	}
+	
+	
+	#main-content{
+		width: 59.39%;
+		float: left;
+		margin: 2%;
+
+	}
+	
+	#sidebar{
+		width: 32.60%;
+		float: left;
+		margin: 2%;
+
+	}
+	.side-figure{
+		width: 88.0794%;
+		margin: 0 auto;
+	}
+	.main-figure{
+		width: 32.504%;
+		margin-right: 9.56%;
+		float: right;
+		padding: bottom: 2%;
+	}
+	footer{ 
+	clear: both;
+	padding: 0.5%;
+	}
+	p{ 
+		margin: 2% 0;
+	}
+	h2, h1{ 
+	margin: 2% 0;
+	}
+	.nav-item{ 
+		display: inline-block;
+		margin-left: 2%;
+		background-color: yellow;
+	}
+	
+	li.nav-item a:link{
+		color: red;
+	}
+	
+	li.nav-item a:visited{
+		color: green;
+	}
+	
+	li.nav-item a:hover{
+		color: white;
+		background-color: skyblue;
+	}
+	
+	li.nav-item a:active{
+		color: orange;
+	}
+	
+	blockquote{
+		font-size: 1.5em;
+		font-family: serif;
+		line-height: 1.5em;
+		margin: 4% 0 4% 6%;
+		background-color: darkgrey;
+		padding: 2%;
+		border-left: 10px solid black;
+		color: #eee;
+		clear: right;
+	}
+	
+	blockquote:before{
+		vertical-align: -.35em;
+		line-height: 0;
+		font-size: 4em;
+		content: "\201C";
+	}
+	h1{
+		color: #061F00
+	}
+	h2{ 
+		color: #214B16;
+	}
+	
+/*type styles*/
+	
+	#feature h2{
+		margin-bottom: 2%;
+	}
+	p{
+		margin: 2.5% 0;
+	}
+	
+	body{
+		font-family: 'Cardo', serif;
+	}
+	
+	h1, h2, h3, h4, h5, h6{
+		font-family: 'Josefin Sans', sans-serif;
+		letter-spacing: .05em;
+	}
+	h1{ 
+		font-size: 2em;
+		font-weight: bold;
+	}
+	
+	h2{
+		font-size: 1.75em;
+		font-weight: bold;
+	}
+	
+		.feature-text{
+		float: left;
+		width: 58%;
+		margin-left:  2%;
+		font-size: 1.3333em;
+		font-weight: bold;
+		line-height: 125%;
+		letter-spacing: .05em;
+		
+	}
+	
+	article>p{
+		line-height: 120%;
+	}
+	
+	figcaption{
+		margin: 3%;
+	}
+	
+	#sidebar figcaption{
+		margin-bottom: 6%;
+	}
+	
+	.main-figure2{ 
+	width: 100%;
+	}
+	</style>
+    <title>Jäger</title>
+</head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+
+<body>
+	<div id="wrapper">
+	<header>
+		<h1>Imperial German Uniforms of the First World War</h1>
+	</header>
+	
+	<nav>
+		<ul>
+			<li class="nav-item"><a href="WWI page 1.html">Infantrie</a></li>
+			<li class="nav-item"><a href="WWI page 3.html">Pioniere</a></li>
+			<li class="nav-item"><a href="WWI page 4.html">Artillerie</a></li>
+			<li class="nav-item"><a href="WWI page 5.html">Kavallerie</a></li>
+		</ul>
+	</nav>
+	
+	<div id="feature">
+		<img src="https://www.vestes-bellica.com/de/img/asset/aW1hZ2VzL2phZ2VyLW5yLi04LTE3MTU4NTI1MjYuanBn?w=1000&h=611&s=36a0dd8871cf6693d2ec31901a285541" class="feature-img"/>
+	<div class="feature-text">
+		<h2>Jägers</h2>
+		<p>It is widely believed that Jäger units first appeared in the German states during the early 18th century. Jäger meaning hunter in German, Jäger units are light infantry specialized for fighting in rougher environments.</p>
+		</div>
+	</div>
+	
+	<div id="main-content">
+		<article>
+			<h2>What are Jägers</h2>
+			<figure class="main-figure">
+				<img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/3028e04c-4658-4eb5-9f5a-3a8168ae54c6/de5xi1h-cc46dc61-cff7-4d6a-918b-e25dcf912d62.jpg/v1/fill/w_769,h_1039,q_70,strp/ww1___1914__german_saxon_and_prussian__jaeger_by_andreasilva60_de5xi1h-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTcyOSIsInBhdGgiOiJcL2ZcLzMwMjhlMDRjLTQ2NTgtNGViNS05ZjVhLTNhODE2OGFlNTRjNlwvZGU1eGkxaC1jYzQ2ZGM2MS1jZmY3LTRkNmEtOTE4Yi1lMjVkY2Y5MTJkNjIuanBnIiwid2lkdGgiOiI8PTEyODAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.WiX24NLASkZ6kHuSwmFcapb13cBekq_Fv_suTrBKfVU" />
+				<figcaption>
+					<p>Drawing of early war 12th Saxon Jägers and Prussian 3rd Jägers</p>
+				</figcaption>
+			</figure>
+			<p>Jägers are specialized light infantry, this means they are mainly used to scout and be more mobile than regular infantry. A large amount of Jägers were hunters before joining this made them great at sharpshooting and surviving in the wilderness. </p>
+			<p>Jäger units were specialized for primarily mountains and forests, using skis in snowy mountains and hills. There were a total of 28 Jäger regiments raised in Germany, these included special groups such as the SkiJäger and also the 27th Jäger regiment was formed of Finnish volunteers fighting for Finnish independence from Russia with German support. Later into the war Jäger units would be intagrated into infantry as they're numbers lessened. </p>
+		</article>
+		
+		<article>
+			<h2>Jäger uniforms</h2>
+			<p>In the early stages of the war Jägers wore a more green uniform rather than feldgrau, the tunic had differnt style cuffs that are horizontal and had two buttons although some different states such as Saxony had their own style. The tunic and pants also had green piping instead of red. </p>
+			<p>Instead of a Pickelhaube Jägers used whats called a Shako a tall leather helmet that was also used commonly by police. on the top it would have a oval cockade for the color of state you will also sometimes see marines or colonial troops wear these but theirs have just the colors for Germany of red, white, and black. Jägers would also exclusively have a solid green bayonet knot. They are also believed to have used the first to use ghillie suits though it may have been the British, Jägers were experts in camouflage.</p>
+		</article>
+			<figure class="main-figure2">
+				<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThiaRmrnL-iqmwZteFSt-JfnAF4PCFklkwMEyByigm9ebz8g6nGQW6IjbQ&s=10" />
+				<figcaption>
+					<p>German 11th and 24th Jägers</p>
+				</figcaption>
+			</figure>
+	</div><!--close main div-->
+	<div id="sidebar">
+		<article>
+			<h2>Jäger quipment </h2>
+			<figure class="side-figure">
+				<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTmkmRPHXjHnv88CoOebf6UFetThzbxBfI4brJQb1ksxllr4FK_Xl93sMw&s=10" />
+				<figcaption>
+					<p>German 18th Jägers using MG08 machine gun</p>
+				</figcaption>
+			</figure>
+			<p>Jägers largely used the same weapons as infantry but would more often have shorter carbines to be more manuverable they would get more close quarters weapons such as pistols and potentially sub machine guns late into the war.</p>
+			<figure class="side-figure">
+				<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvIwekmCW7z0CLPRo7oAutqnV4Si5BkwwG1TXz9yKLgyI6k8RKwfKB0bOb&s=10" />
+				<figcaption>
+					<p>believed to be photo of Finnish Jäger unit as cockades are missing from shakos</p>
+				</figcaption>
+			</figure>
+		</article>
+	</div><!--close sidebar div-->
+	<footer>
+		<p><small>Copyright Xander Oldenburg-Stifter 2026, all images, illustrations, and videos belong to their respective owners.</small></p>
+	</footer>
+	</div><!--close wrapper div-->
+</body>	
+</html>
